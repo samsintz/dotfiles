@@ -1,7 +1,7 @@
 FROM alpine
 
 RUN apk update && \
-    apk add --no-cache automake autoconf ncurses-dev build-base python3 zsh curl git vim tree htop stow wget fonts-powerline && \
+    apk add --no-cache automake autoconf ncurses-dev build-base python3 zsh curl git vim tree htop stow wget && \
     rm -f /tmp/* /etc/apk/cache/*
 
 RUN git config --global user.name "Sam Sintz"
