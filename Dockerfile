@@ -25,7 +25,7 @@ RUN git clone --depth 1 https://github.com/jonas/tig /tmp/tig \
 RUN git clone --depth 1 https://github.com/samsintz/dotfiles /root/dotfiles \
  && rm /root/.zshrc \
  && cd /root/dotfiles \
- && stow zsh tmux
+ && stow zsh
 
 # Configure vim
 # TODO
